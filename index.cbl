@@ -1,0 +1,12 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HELLO-WORLD.
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 USER-NAME PIC A(30).
+       PROCEDURE DIVISION.
+       MAIN-PROCEDURE.
+           DISPLAY "Entrez votre nom : ".
+           ACCEPT USER-NAME.
+           DISPLAY "Bonjour, " USER-NAME "!".
+           STOP RUN.
